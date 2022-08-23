@@ -1,0 +1,348 @@
+/*
+Theme Name:  Your Blog 
+Theme URI: http://techfyd.com
+Author: Shahidul Islam
+Author URI: http://www.techfyd.com
+Description: The 2013 theme for WordPress takes us back to the blog, featuring a full range of post formats, each displayed beautifully in their own unique way. Design details abound, starting with a vibrant color scheme and matching header images, beautiful typography and icons, and a flexible layout that looks great on any device, big or small. Thanks- http://www.techfyd.com & http://www.shahidul.net
+Version: 1.0
+License: http://www.techfyd.com & http://www.shahidul.net
+
+ 
+Text Domain:  http://www.techfyd.com
+ 
+*
+
+/* ======================================================================================================== */
+/* ======================================================================================================== */
+/* =====================================    Start Comments Section    ===================================== */
+/* ======================================================================================================== */
+/* ======================================================================================================== */
+ .comment-form >.form-submit>.submit{
+ 	color: #ffffff;
+    background-color: #3c3343;
+    border-color: #2f2835;
+
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    border-radius: 5px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+ }
+
+ .custom-comments{
+ 	    margin-bottom: 30px;
+ 	        border-color: #dddddd;
+ 	        margin-bottom: 20px;
+    background-color: #ffffff;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+        padding: 10px;
+ }
+
+
+
+
+#commentform>.comment-form-comment>#comment {
+    display: block;
+	
+
+   /*  min-width: 550px;
+    max-width: 600px; */
+
+
+	min-width: 252px;
+    width: 80%;
+    height: 190px;
+
+
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #555555;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+
+.comment-respond>#commentform>.comment-form-email>#email,.comment-form-author>#author,.comment-form-url>#url{
+	    display: block;
+    width: 50%;
+    min-width: 250px;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #555555;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.comment-respond>.comment-reply-title>h3{
+	font-size: 1.7em;
+    padding: 0;
+    line-height: 32px;
+    font-family: Source Sans Pro;
+    font-weight: 300;
+    margin: 0;
+    color: #5c5c5c;
+}
+
+
+.comment-body>.comment-author>.fn>.url,.says{
+	    font-size: 18px;
+    color: #9e9e9e;
+    line-height: 32px;
+
+        
+    -webkit-margin-before: 1.33em;
+    -webkit-margin-after: 1.33em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+.comment-body>p{
+	    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.custom-comments>h3>{
+	font-size: 1.7em;
+    padding: 0;
+    line-height: 32px;
+    font-family: Source Sans Pro;
+    font-weight: 300;
+    margin: 0;
+    color: #5c5c5c;
+        text-align: justify;
+}
+
+.list-group>.custom-comments>#comments>h3{
+
+            padding-left: 14px;
+}
+
+
+.comment-body {
+    
+   border: 4px outset;
+    padding: 5px;
+    margin: 30px 0px;
+}
+
+.comment-respond{
+	padding: 0px 10px;
+}
+
+textarea#comment {
+    height: 200px;
+    width: 200px;
+    background: red;
+}
+
+
+/* ======================================================================================================== */
+/* ======================================================================================================== */
+/* =====================================    End Comments Section    ===================================== */
+/* ======================================================================================================== */
+/* ======================================================================================================== */
+
+
+
+
+/* ======================================================================================================== */
+/* ======================================================================================================== */
+/* =====================================    Start Pagination Section    ===================================== */
+/* ======================================================================================================== */
+/* ======================================================================================================== */
+
+.nav-links a{
+	position: relative;
+	float: left;
+	padding: 6px 12px;
+	margin-left: -1px;
+	line-height: 1.42;
+	color: #337AB7;
+	text-decoration: none;
+	background: #fff;
+	border: 1px solid #ddd;
+	    
+
+}
+
+.nav-links a:hover{
+		box-shadow: 8px 10px 20px 0px rgba(46,61,73,0.15);
+}
+.nav-links span{
+	position: relative;
+	float: left;
+	padding: 6px 12px;
+	margin-left: -1px;
+	line-height: 1.42;
+	color: #337AB7;
+	text-decoration: none;
+	background: #fff;
+	border: 1px solid #ddd;
+}
+
+
+
+/* ======================================================================================================== */
+/* ======================================================================================================== */
+/* =====================================    End Pagination Section    ===================================== */
+/* ======================================================================================================== */
+/* ======================================================================================================== */
+
+
+/* ======================================================================================================== */
+/* ======================================================================================================== */
+/* =====================================    Start Search Section    ===================================== */
+/* ======================================================================================================== */
+/* ======================================================================================================== */
+
+.searchform>div>#searchsubmit{
+	color: #ffffff;
+    background-color: #221d26;
+    border-color: #100e12;
+    border-radius: 4px;
+    padding: 2px;
+}
+.searchform>div>#searchsubmit:hover{
+		box-shadow: 8px 10px 20px 0px rgba(46,61,73,0.15);
+	}
+
+
+.searchform>div>#s{
+	border: 2px solid #ddd;
+    padding: 4px 0px;
+    border-radius: 6px;
+}
+
+
+/* ======================================================================================================== */
+/* ======================================================================================================== */
+/* =====================================    Start Search Section    ===================================== */
+/* ======================================================================================================== */
+/* ======================================================================================================== */
+
+
+/* ======================================================================================================== */
+/* ======================================================================================================== */
+/* =====================================    Start Recent Post Section    ===================================== */
+/* ======================================================================================================== */
+/* ======================================================================================================== */
+
+
+
+
+
+a#simple-menu{display: inline-block;position: absolute;top: 0;left: 0;background: #000;color: #fff; padding:10px 15px;font-size: 23px;position: fixed;}
+
+
+
+
+
+
+
+/* ======================================================================================================== */
+/* ======================================================================================================== */
+/* =====================================    End Recent Post Section    ===================================== */
+/* ======================================================================================================== */
+/* ======================================================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
